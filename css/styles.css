@@ -196,15 +196,15 @@ p {
 .portfolio-nav-list {
   display: flex;
   padding-left: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
 .portfolio-button {
   border-radius: 4px;
-  border-color: transparent;
-  /*border: none;*/
-  margin: 5px 0;
+  /*border-color: transparent;*/
+  border: none;
+  margin: 0;
   padding: 6px 22px;
 
   font-family: inherit;
@@ -293,6 +293,7 @@ p {
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.03em;
+  margin-bottom: 6px;
 }
 
 .footer-list {
@@ -300,8 +301,8 @@ p {
   padding-left: 0;
 }
 
-.footer-item {
-  margin-top: 6px;
+.footer-item:not(:last-child) {
+  margin-bottom: 6px;
 }
 
 /*Главная страница*/
