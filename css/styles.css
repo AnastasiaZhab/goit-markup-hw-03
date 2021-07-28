@@ -123,8 +123,6 @@ p {
 
 .site-nav-item {
   margin: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -140,6 +138,11 @@ p {
 .aside {
   display: flex;
   margin-left: auto;
+}
+
+.aside-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .aside-item + .aside-item {
@@ -370,7 +373,7 @@ p {
 
 .our-team-name {
   text-align: center;
-  padding-top: 30px;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -381,7 +384,6 @@ p {
 
 .our-team-text {
   text-align: center;
-  padding-top: 10px;
 
   font-weight: normal;
   font-size: 16px;
@@ -453,6 +455,7 @@ p {
 
 .images {
     display: block;
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
 }
