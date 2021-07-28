@@ -188,7 +188,7 @@ p {
 
 .portfolio-nav-button > button:hover,
 .portfolio-nav-button > button:focus {
-  color: var (var(--primary-white-color));
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -457,5 +457,4 @@ p {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 30px;
 }
